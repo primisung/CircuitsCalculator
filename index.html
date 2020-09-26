@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="./images/Loglogo.png" type="image/x-icon">
+    <title>Circuits Formula</title>
+</head>
+<body>
+    <section id="ohm-formula" class="card">
+        <h1 class="formula-title">Ohm's Formula</h1>
+        <h3 id="ohm-answer"> </h3>
+        <div class="units">
+            <label for="volt">Volts</label>
+            <input type="text" id="volts" placeholder="Insert Volt(V)">
+            <label for="volt">Resistance</label>
+            <input type="text" id="ohm" placeholder="Insert Resistance(Ω)">
+            <label for="volt">Current</label>
+            <input type="text" id="amp" placeholder="Insert Current(A)">
+            <label for="volt">Power</label>
+            <input type="text" id="power" placeholder="Insert Power(W)">
+            <div class="solve-buttons">
+                <button id="solve-volts" class="buttons">Find Volts(V)</button>
+                <button id="solve-amp" class="buttons">Find Current(I)</button>   
+                <button id="solve-ohm" class="buttons">Find Resistance(Ω)</button>   
+                <button id="solve-power" class="buttons">Find Power(W)</button>      
+
+            </div>
+        </div>
+    </section>
+    <section id="electrical-energy" class="card">
+        <h1 class="formula-title">Electrical Energy Formula</h1>
+        <h3 id="energy-answer"> </h3>
+        <div class="units">
+            <label for="">Power(W)</label>
+            <input type="text" id="e-power" placeholder="Insert Power(W)">
+            <label for="">Time(s)</label>
+            <input type="text" id="e-time" placeholder="Insert Time(s)">
+            <label for="">Energy(J)</label>
+            <input type="text" id="e-energy" placeholder="Insert Energy(J)">
+            <button id="solve-energy" class="buttons">Calculate</button>
+        </div>
+    </section>
+    <section id="coulomb-shit" class="card">
+        <h1 class="formula-title">Coulomb Shit Formula</h1>
+        <h3 id="coulomb-answer"> </h3>
+        <div class="units">
+            <label for="">Current(A)</label>
+            <input type="text" id="c-amp" placeholder="Insert Current or I (A)">
+            <label for="">Coulomb(C)</label>
+            <input type="text" id="c-coulomb" placeholder="Insert Coulomb(C)">
+            <label for="">Time(s)</label>
+            <input type="text" id="c-time" placeholder="Insert Time(s)">
+            <button id="solve-coulomb" class="buttons">Calculate</button>
+        </div>
+    </section>
+    <section id="efficiency" class="card">
+        <h1 class="formula-title">Efficiency Formula</h1>
+        <h3 id="efficiency-answer"> </h3>
+        <div class="units">
+            <label for="">Input(kW)</label>
+            <input type="text" id="ec-input" placeholder="Insert Input(kW)">
+            <label for="">Output(hp)</label>
+            <input type="text" id="ec-output" placeholder="Insert Output(hp)">
+            <label for="">Efficiency(omit %)</label>
+            <input type="text" id="ec-efficiency" placeholder="Insert Efficiency(omit %)">
+            <button id="solve-efficiency" class="buttons">Calculate</button>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
